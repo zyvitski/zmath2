@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC873781C7AB373003F1E1A /* librtaudio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC873771C7AB373003F1E1A /* librtaudio.dylib */; };
+		1FDF99D41C549C7200950766 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF99D31C549C7200950766 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1FDF99CE1C549C7200950766 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F0390BA1C684FDF00CC9DF4 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		1F0C63CA1C7300E700F2D434 /* vector_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector_types.h; sourceTree = "<group>"; };
+		1FB716531C5C6D6800A2518B /* cosine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cosine.h; sourceTree = "<group>"; };
+		1FC873771C7AB373003F1E1A /* librtaudio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librtaudio.dylib; path = ../../Downloads/librtaudio.dylib; sourceTree = "<group>"; };
+		1FDF99D01C549C7200950766 /* zmath2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zmath2; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDF99D31C549C7200950766 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1FDF99DB1C58020D00950766 /* bessel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bessel.h; sourceTree = "<group>"; };
+		1FF4FC311C58468D007DAC94 /* chebyshev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chebyshev.h; sourceTree = "<group>"; };
+		1FF4FC321C58468D007DAC94 /* sine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sine.h; sourceTree = "<group>"; };
+		1FF4FC331C58468D007DAC94 /* implementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = implementation.h; sourceTree = "<group>"; };
+		1FF4FC351C5849FA007DAC94 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		1FF4FC361C5859EF007DAC94 /* legendere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = legendere.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FDF99CD1C549C7200950766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC873781C7AB373003F1E1A /* librtaudio.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FDF99C71C549C7200950766 = {
+			isa = PBXGroup;
+			children = (
+				1FC873771C7AB373003F1E1A /* librtaudio.dylib */,
+				1FDF99D21C549C7200950766 /* zmath2 */,
+				1FDF99D11C549C7200950766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FDF99D11C549C7200950766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FDF99D01C549C7200950766 /* zmath2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FDF99D21C549C7200950766 /* zmath2 */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C63CA1C7300E700F2D434 /* vector_types.h */,
+				1F0390BA1C684FDF00CC9DF4 /* types.h */,
+				1FDF99D31C549C7200950766 /* main.cpp */,
+				1FF4FC311C58468D007DAC94 /* chebyshev.h */,
+				1FF4FC321C58468D007DAC94 /* sine.h */,
+				1FB716531C5C6D6800A2518B /* cosine.h */,
+				1FF4FC331C58468D007DAC94 /* implementation.h */,
+				1FF4FC361C5859EF007DAC94 /* legendere.h */,
+				1FDF99DB1C58020D00950766 /* bessel.h */,
+				1FF4FC351C5849FA007DAC94 /* error.h */,
+			);
+			path = zmath2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FDF99CF1C549C7200950766 /* zmath2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDF99D71C549C7200950766 /* Build configuration list for PBXNativeTarget "zmath2" */;
+			buildPhases = (
+				1FDF99CC1C549C7200950766 /* Sources */,
+				1FDF99CD1C549C7200950766 /* Frameworks */,
+				1FDF99CE1C549C7200950766 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zmath2;
+			productName = zmath2;
+			productReference = 1FDF99D01C549C7200950766 /* zmath2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FDF99C81C549C7200950766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexander zywicki";
+				TargetAttributes = {
+					1FDF99CF1C549C7200950766 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 1FDF99CB1C549C7200950766 /* Build configuration list for PBXProject "zmath2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FDF99C71C549C7200950766;
+			productRefGroup = 1FDF99D11C549C7200950766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FDF99CF1C549C7200950766 /* zmath2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FDF99CC1C549C7200950766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDF99D41C549C7200950766 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FDF99D51C549C7200950766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = shallow;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-msse4.1",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FDF99D61C549C7200950766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_STATIC_ANALYZER_MODE = shallow;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-msse4.1",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1FDF99D81C549C7200950766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/alexanderzywicki/Downloads,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FDF99D91C549C7200950766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/alexanderzywicki/Downloads,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FDF99CB1C549C7200950766 /* Build configuration list for PBXProject "zmath2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDF99D51C549C7200950766 /* Debug */,
+				1FDF99D61C549C7200950766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDF99D71C549C7200950766 /* Build configuration list for PBXNativeTarget "zmath2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDF99D81C549C7200950766 /* Debug */,
+				1FDF99D91C549C7200950766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FDF99C81C549C7200950766 /* Project object */;
+}
